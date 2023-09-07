@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@100&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins,sans-serif";
+    box-sizing: border-box;
+}
+body{
+    background: #001e4d;
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width:600px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 30px   ;
+}
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom:1px solid #333;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius:5px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: rgb(34, 34, 34);
+    color: #fff ;
+}
+.next-button{
+     padding: 10px 50px;
+     background-color: #001e4d;
+     color: #fff;
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+     margin: 20px auto 0;
+     display: block;
+    
+}
+
+.correct{
+    background: #9aeabc;
+}
+.Incorrect{
+    background: #ff9393;
+}
